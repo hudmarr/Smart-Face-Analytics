@@ -9,7 +9,7 @@ I developed this project to test my understanding of transfer learning and to ex
 
 During testing, I observed that the system’s age prediction accuracy tends to falter for individuals under 25 or over 50. If a dataset were created specifically for these age groups and used to fine-tune the model, I believe significant improvements in accuracy could be achieved. Ultimately, this project is a foundational component for one of my upcoming projects.
 
-![Main Interface](main_interface.png)
+![Main Interface](pictures_readme/main_interface.png)
 
 ---
 
@@ -29,7 +29,7 @@ If you click **Start Recognition System**, the application opens a real-time vid
 
 If the detected individual is already registered in the system, their **stored data** is displayed alongside the real-time predictions.
 
-![Real-Time Analysis](realtime_analysis.png)
+![Real-Time Analysis](pictures_readme/realtime_analysis.png)
 
 ---
 
@@ -42,23 +42,23 @@ If you click **Add Person**, you will be taken to the **registration screen**, w
 
 Once the information is entered, you have the option to **start the camera** and take a profile photo.
 
-![Add Person Interface](add_person.png)
+![Add Person Interface](pictures_readme/add_person.png)
 
 #### **Capturing a Photo**
 When you press the **Start Camera** button, a live camera feed appears, allowing you to take a photo. You will see a button labeled **Capture Photo**.
 
-![Capture Photo](capture_photo.png)
+![Capture Photo](pictures_readme/capture_photo.png)
 
 After capturing the photo, a confirmation screen appears stating **"Photo was successfully saved."**
 
-![Successful Photo](successful_photo.png)
+![Successful Photo](pictures_readme/successful_photo.png)
 
 ---
 
 ### **3. Returning to Recognition Mode**
 After adding a person to the database, returning to **Start Recognition System** will now show their stored information alongside real-time predictions.
 
-![Main Interface Updated](main_interface_2.png)
+![Main Interface Updated](pictures_readme/main_interface_2.png)
 
 ---
 
