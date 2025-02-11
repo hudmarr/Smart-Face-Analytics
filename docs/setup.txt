@@ -1,0 +1,23 @@
+# Step 1: Create a new virtual environment with Python 3.9
+py -3.9 -m venv venv
+
+# Step 2: Activate the virtual environment
+.\venv\Scripts\Activate
+
+# Step 3: Update pip to avoid dependency resolution warnings
+python -m pip install --upgrade pip
+
+# Step 4: Install the core dependencies in specific order
+# Start with numpy version 1.23.5 as newer versions cause compatibility issues
+pip install numpy==1.23.5
+
+# Install TensorFlow 2.10.0 which works well with our Python version
+#pip uninstall tensorflow
+
+pip install --no-cache-dir tensorflow==2.10.0
+
+# Install OpenCV for image processing
+pip install opencv-python
+
+# Finally install DeepFace which will handle our facial analysis
+pip install deepface
